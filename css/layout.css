@@ -1,0 +1,50 @@
+.content-block {
+    padding: 40px 80px 0;
+}
+
+.block_display_flex {
+    display: flex;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.menu .current {
+    color: rgb(6, 30, 55);
+}
+
+.title {
+    font-size: 45px;
+    color: rgb(6, 30, 55);
+    text-align: center;
+}
+
+.button {
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.text__title {
+    margin: 0 370px;
+    padding: 15px 0 40px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.text__title_gray {
+    color: rgb(176, 190, 197);
+}
