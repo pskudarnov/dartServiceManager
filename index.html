@@ -550,59 +550,63 @@
 
       </div>
 
-      <div class="contact-us__input-block">
+      <form id="inverse_form" action="">
 
-        <div class="contact-us__input-block__left">
+        <div class="contact-us__input-block">
 
-          <div class="contact-us__input_padding_bottom">
+          <div class="contact-us__input-block__left">
 
-            <input class="contact-us__input" placeholder="First Name">
+            <div class="contact-us__input_padding_bottom">
 
+              <input id="name" name="name" class="contact-us__input" placeholder="First Name" required>
+
+            </div>
+
+            <div class="contact-us__input_padding_bottom">
+
+              <input id="email" name="email" type="text" class="contact-us__input" placeholder="Email" required>
+
+            </div>
           </div>
 
-          <div class="contact-us__input_padding_bottom">
+          <div class="contact-us__input-block__right">
 
-            <input class="contact-us__input" placeholder="Email">
+            <div class="contact-us__input_padding_bottom">
 
-          </div>
-        </div>
+              <input class="contact-us__input" placeholder="Last Name" required>
 
-        <div class="contact-us__input-block__right">
+            </div>
 
-          <div class="contact-us__input_padding_bottom">
+            <div class="contact-us__input_padding_bottom">
 
-            <input class="contact-us__input" placeholder="Last Name">
+              <input id="phone" name="phone" type="text" class="contact-us__input" placeholder="Phone" required>
 
-          </div>
-
-          <div class="contact-us__input_padding_bottom">
-
-            <input class="contact-us__input" placeholder="Phone">
+            </div>
 
           </div>
-
-        </div>
-
-      </div>
-
-      <div class="contact-us__input_message_margin">
-
-        <textarea class="contact-us__input_message" placeholder="Message" name="comment"></textarea>
-
-      </div>
-
-      <div class="contact-us__regulations__button">
-
-        <div class="contact-us__regulations">
-
-          <input class="contact-us__checkbox" type="checkbox">
-          <p>subscribe to the newsletter</p>
 
         </div>
 
-        <button class="button contact-us__button">Send</button>
+        <div class="contact-us__input_message_margin">
 
-      </div>
+          <textarea required class="contact-us__input_message" placeholder="Message" name="comment"></textarea>
+
+        </div>
+
+        <div class="contact-us__regulations__button">
+
+          <div class="contact-us__regulations">
+
+            <input class="contact-us__checkbox" type="checkbox">
+            <p>subscribe to the newsletter</p>
+
+          </div>
+
+          <input id="submit" name="button" type="submit" class="button contact-us__button" value="Send">
+
+        </div>
+
+      </form>
 
     </div>
 
