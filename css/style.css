@@ -129,6 +129,7 @@ header {
     margin: 40px 0 0 44%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
     background-color: #1de9b5;
+    color: rgb(255, 255, 255);
 }
 
 /*counts*/
@@ -181,14 +182,6 @@ header {
     padding-left: 240px;
 }
 
-.services__statistic {
-    width: 800px;
-    height: 240px;
-    border-radius: 5px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-}
-
 .services__header {
     display: flex;
     padding: 20px 0 0 20px;
@@ -204,8 +197,12 @@ header {
 }
 
 .services__text {
-    padding: 20px 0 0 20px;
+    width: 800px;
     display: flex;
+    padding: 20px 0 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.13);
+    background-color: #ffffff;
 }
 
 .services__content {
@@ -215,6 +212,8 @@ header {
 .services__block__hide {
     width: 800px;
     height: 50px;
+    display: flex;
+    padding: 17px 0 17px 20px;
     margin-top: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.13);

@@ -19,10 +19,6 @@
     color: rgb(255, 255, 255);
 }
 
-.menu .current {
-    color: rgb(6, 30, 55);
-}
-
 .title {
     font-size: 45px;
     color: rgb(6, 30, 55);
