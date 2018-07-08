@@ -44,3 +44,27 @@
 .text__title_gray {
     color: rgb(176, 190, 197);
 }
+
+@media screen and (max-width: 426px) {
+    .content-block {
+        padding: 10px 20px 0;
+    }
+
+    .text__title {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 427px) {
+    .content-block {
+        padding: 2% 4% 0;
+    }
+
+    .header-block__logo {
+        padding-right: 10%;
+    }
+
+    .header-block__sing_up {
+        padding-left: 10%;
+    }
+}

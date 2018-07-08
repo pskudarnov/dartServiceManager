@@ -115,6 +115,7 @@ header {
 }
 
 .easy-useful__text1 {
+    padding-bottom: 30px;
     font-size: 15px;
     line-height: 20px;
     color: rgb(120, 144, 156);
@@ -129,6 +130,10 @@ header {
     margin: 40px 0 0 44%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
     background-color: #1de9b5;
+}
+
+.easy-useful__button a {
+    text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
@@ -357,7 +362,7 @@ header {
 }
 
 .contact-us__input {
-    width: 280px;
+    width: 100%;
     height: 50px;
     border-radius: 5px;
     background-color: #ffffff;
@@ -371,11 +376,16 @@ header {
 }
 
 .contact-us__input-block__left {
+    width: 50%;
     padding-right: 30px;
 }
 
+.contact-us__input-block__right {
+    width: 50%;
+}
+
 .contact-us__input_message {
-    width: 590px;
+    width: 100%;
     height: 150px;
     border-radius: 5px;
     background-color: #ffffff;
@@ -391,8 +401,7 @@ header {
 
 .contact-us__checkbox {
     font-size: 20px;
-    margin-left: 15px;
-    margin-right: 10px;
+    margin: 0 10px 0 15px;
     padding-left: 5px;
 }
 
@@ -446,4 +455,198 @@ footer {
 
 .footer-block__social img {
     padding-right: 10px;
+}
+
+@media only screen and (max-width: 426px) {
+    .block_display_flex {
+        display: block;
+    }
+
+    .header-block__logo {
+        padding: 0;
+    }
+
+    .header-block__sing_up {
+        display: none;
+    }
+
+    .header-block__banner {
+        display: block;
+        padding-top: 70px;
+    }
+
+    .header-block__banner__left {
+        width: 100%;
+    }
+
+    .header-block__banner__right {
+        display: none;
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    .easy-useful__content__text {
+        width: 100%;
+    }
+
+    .easy-useful {
+        height: 100%;
+    }
+
+    .easy-useful__content {
+        display: block;
+    }
+
+    .easy-useful__button {
+        margin: 10px 0 20px 118px
+    }
+
+    .counts {
+        height: 100%;
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        height: 100px
+    }
+
+    .counts__content {
+        margin: 0 0 0 135px;
+        padding-top: 20px
+    }
+
+    .services {
+        height: 100%;
+        padding-bottom: 40px;
+    }
+
+    .services__block {
+        padding-left: 0;
+    }
+
+    .services__block__hide {
+        width: 100%;
+    }
+
+    .services__text {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .services__content {
+        padding: 10px;
+    }
+
+    .testimonials__review {
+        display: none;
+    }
+
+    .testimonials-block__left {
+        padding-top: 50px;
+    }
+
+    .text__title {
+        padding: 15px 0 10px;
+    }
+
+    .team {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .team__avatars {
+        margin: 0 40px;
+        height: 150px;
+    }
+
+    .team__text2 {
+        margin: 0;
+    }
+
+    .team__social {
+        padding: 30px 0 0 125px;
+    }
+
+    .contact-us {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .contact-us__input-block {
+        display: block;
+    }
+
+    .contact-us__input-block {
+        margin: 0;
+    }
+
+    .contact-us__input-block__left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact-us__input-block__right {
+        width: 100%;
+    }
+
+    .contact-us__input_padding_bottom {
+        padding-bottom: 10px;
+    }
+
+    .contact-us__input {
+        width: 100%;
+    }
+
+    .contact-us__input_message_margin {
+        margin: 0;
+    }
+
+    .contact-us__input_message {
+        width: 100%;
+    }
+
+    .contact-us__regulations__button {
+        display: block;
+        margin: 0;
+    }
+
+    .contact-us__regulations {
+        margin: 0;
+    }
+
+    .contact-us__button {
+        margin: 30px 0 0 60%;
+    }
+
+    footer {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .footer-block__logo {
+        padding: 0 0 30px 0;
+    }
+
+    .footer-block__text {
+        margin: 0;
+        display: block;
+    }
+
+    .footer-block__social {
+        padding: 20px 0 0 30%;
+    }
+
+    .footer-block__text p {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1025px) {
+
 }
