@@ -458,7 +458,12 @@ footer {
 }
 
 @media only screen and (max-width: 1025px) {
-    header {
+    header,
+    .easy-useful,
+    .services,
+    .team,
+    .contact-us,
+    footer {
         height: 100%;
         padding-bottom: 30px;
     }
@@ -487,11 +492,6 @@ footer {
         width: 550px;
     }
 
-    .easy-useful {
-        height: 100%;
-        padding-bottom: 30px;
-    }
-
     .easy-useful__button {
         margin: 40px 0 0 42%;
     }
@@ -510,11 +510,6 @@ footer {
 
     .services__block {
         padding-left: 70px;
-    }
-
-    .services {
-        height: 100%;
-        padding-bottom: 30px;
     }
 
     .testimonials-block__left {
@@ -538,22 +533,12 @@ footer {
         margin: 0 240px;
     }
 
-    .team {
-        height: 100%;
-        padding-bottom: 30px;
-    }
-
     .team__text2 {
         margin: 0 240px;
     }
 
     .team__social {
         padding: 30px 0 0 400px;
-    }
-
-    .contact-us {
-        height: 100%;
-        padding-bottom: 30px;
     }
 
     .contact-us__input-block {
@@ -574,11 +559,6 @@ footer {
 
     .footer-block__logo {
         padding-right: 390px;
-    }
-
-    footer {
-        height: 100%;
-        padding-bottom: 30px;
     }
 
     .footer-block__social {
@@ -855,6 +835,32 @@ footer {
 
     .footer-block__text p {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .menu {
+        text-align: center;
+    }
+
+    .easy-useful__button {
+        margin: 10px 0 20px 95px;
+    }
+
+    .counts__content {
+        margin: 0 0 0 110px;
+    }
+
+    .team__avatars {
+        margin: 0 10px
+    }
+
+    .team__social {
+        padding: 30px 0 0 95px;
+    }
+
+    .contact-us__button {
+        margin: 30px 0 0 55%;
     }
 }
 
