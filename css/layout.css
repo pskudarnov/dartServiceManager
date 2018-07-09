@@ -45,6 +45,22 @@
     color: rgb(176, 190, 197);
 }
 
+@media only screen and (max-width: 1025px) {
+    .content-block {
+        padding: 2% 4% 0;
+    }
+
+    .text__title {
+        margin: 0 270px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .text__title {
+        margin: 0 170px;
+    }
+}
+
 @media screen and (max-width: 426px) {
     .content-block {
         padding: 10px 20px 0;
@@ -55,16 +71,14 @@
     }
 }
 
-@media only screen and (max-width: 1025px) and (min-width: 427px) {
-    .content-block {
-        padding: 2% 4% 0;
+@media only screen and (max-width: 321px) {
+    .menu a {
+        padding: 10px;
     }
 
-    .header-block__logo {
-        padding-right: 10%;
+    .button {
+        width: 130px;
     }
 
-    .header-block__sing_up {
-        padding-left: 10%;
-    }
+
 }
