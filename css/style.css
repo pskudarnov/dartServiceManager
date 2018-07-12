@@ -27,11 +27,11 @@ header {
 .header-block__logo {
 }
 
-.header-block__sung_up {
+.header-block__sing_up {
     margin-top: 10px;
 }
 
-.header-block__sung_up button {
+.header-block__sing_up button {
     width: 80px;
     height: 25px;
     border-radius: 2px;
@@ -346,7 +346,7 @@ header {
     padding-right: 10px;
 }
 
-.team__social_padding_0 {
+.team__social img:last-child {
     padding: 0;
 }
 
@@ -449,9 +449,6 @@ footer {
     padding-top: 50px;
 }
 
-.footer-block__logo {
-}
-
 .footer-block__text {
     margin-top: 30px;
     display: flex;
@@ -464,6 +461,10 @@ footer {
     margin-right: 30px;
 }
 
+.footer-block__text p:last-child {
+    margin-right: 0;
+}
+
 #footer__menu {
     margin: 0 0 0 auto;
 }
@@ -474,6 +475,10 @@ footer {
 
 .footer-block__social img {
     padding-right: 10px;
+}
+
+.footer-block__social img:last-child {
+    padding: 0;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -587,12 +592,12 @@ footer {
 }
 
 @media only screen and (max-width: 630px) {
-    .header-block__sung_up {
+    .header-block__sing_up {
         width: 150px;
         margin: 10px auto;
     }
 
-    .header-block__sung_up button {
+    .header-block__sing_up button {
         width: 150px;
         height: 50px;
         font-size: 15px;
@@ -601,7 +606,6 @@ footer {
     .block_display_flex {
         display: block;
     }
-
 
     .testimonials-block__right {
         display: none;
