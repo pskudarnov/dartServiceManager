@@ -20,12 +20,14 @@ header {
     color: rgb(255, 255, 255);
 }
 
+.menu {
+    margin: 0 auto;
+}
+
 .header-block__logo {
-    padding-right: 270px;
 }
 
 .header-block__sung_up {
-    padding-left: 29%;
     margin-top: 10px;
 }
 
@@ -151,12 +153,14 @@ header {
 
 .counts__content {
     display: flex;
-    margin: 40px 0 0 100px;
+    padding: 10%;
     color: rgb(255, 255, 255);
     font-weight: 800;
+    justify-content: center;
 }
 
 .counts__content_margin {
+    width: 95px;
     margin: 15px 0 0 10px
 }
 
@@ -184,7 +188,8 @@ header {
 }
 
 .services__block {
-    padding-left: 240px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .services__header {
@@ -202,7 +207,6 @@ header {
 }
 
 .services__text {
-    width: 800px;
     display: flex;
     padding: 20px 0 20px 20px;
     border-radius: 5px;
@@ -223,6 +227,7 @@ header {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.13);
     background-color: #ffffff;
+    cursor: pointer;
 }
 
 .services__block__hide_padding {
@@ -265,7 +270,7 @@ header {
     line-height: 25px;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    padding-bottom: 80px;
+    padding-bottom: 10%;
 }
 
 .testimonials__button {
@@ -309,7 +314,8 @@ header {
 }
 
 .team__avatars {
-    margin: 0 400px;
+    display: block;
+    margin: 0 auto;
 }
 
 .team__text {
@@ -321,8 +327,9 @@ header {
 }
 
 .team__text2 {
+    width: 600px;
     padding-top: 20px;
-    margin: 0 340px;
+    margin: 0 auto;
     font-size: 15px;
     line-height: 25px;
     color: rgb(144, 164, 174);
@@ -330,11 +337,17 @@ header {
 }
 
 .team__social {
-    padding: 30px 0 0 575px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
 
 .team__social img {
     padding-right: 10px;
+}
+
+.team__social_padding_0 {
+    padding: 0;
 }
 
 /*contact-us*/
@@ -354,7 +367,8 @@ header {
 }
 
 .contact-us__input-block {
-    margin: 0 350px;
+    width: 580px;
+    margin: 0 auto;
 }
 
 .contact-us__input_padding_bottom {
@@ -406,16 +420,18 @@ header {
 }
 
 .contact-us__button {
-    margin-left: 225px;
+    margin-left: auto;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
     background-color: #1de9b5;
     color: rgb(255, 255, 255);
 }
 
 .contact-us__regulations__button {
+    width: 580px;
     display: flex;
     padding-top: 20px;
-    margin: 0 335px;
+    margin: 0 auto;
+
 }
 
 .contact-us__regulations {
@@ -434,7 +450,6 @@ footer {
 }
 
 .footer-block__logo {
-    padding-right: 700px;
 }
 
 .footer-block__text {
@@ -449,8 +464,12 @@ footer {
     margin-right: 30px;
 }
 
+#footer__menu {
+    margin: 0 0 0 auto;
+}
+
 .footer-block__social {
-    padding-left: 750px;
+    margin-left: auto;
 }
 
 .footer-block__social img {
@@ -466,14 +485,6 @@ footer {
     footer {
         height: 100%;
         padding-bottom: 30px;
-    }
-
-    .header-block__logo {
-        padding-right: 70px;
-    }
-
-    .header-block__sung_up {
-        padding-left: 25%;
     }
 
     .header-block__banner {
@@ -493,7 +504,8 @@ footer {
     }
 
     .easy-useful__button {
-        margin: 40px 0 0 42%;
+        display: block;
+        margin: 0 auto;
     }
 
     .counts {
@@ -502,14 +514,6 @@ footer {
 
     .card {
         width: 25%;
-    }
-
-    .counts__content {
-        margin: 4% 0 4% 15%;
-    }
-
-    .services__block {
-        padding-left: 70px;
     }
 
     .testimonials-block__left {
@@ -528,53 +532,9 @@ footer {
     .testimonials_text2 {
         padding-bottom: 40px;
     }
-
-    .team__avatars {
-        margin: 0 240px;
-    }
-
-    .team__text2 {
-        margin: 0 240px;
-    }
-
-    .team__social {
-        padding: 30px 0 0 400px;
-    }
-
-    .contact-us__input-block {
-        margin: 0 150px;
-    }
-
-    .contact-us__input_message_margin {
-        margin: 0 150px;
-    }
-
-    .contact-us__regulations__button {
-        margin: 0 135px;
-    }
-
-    .contact-us__button {
-        margin-left: 280px;
-    }
-
-    .footer-block__logo {
-        padding-right: 390px;
-    }
-
-    .footer-block__social {
-        padding-left: 430px;
-    }
 }
 
 @media only screen and (max-width: 768px) {
-    .header-block__sung_up {
-        padding-left: 5%;
-    }
-
-    .header-block__logo {
-        padding-right: 6%;
-    }
-
     .header-block__banner__right__video {
         display: none;
     }
@@ -595,12 +555,9 @@ footer {
         margin: 40px 0 0 39%;
     }
 
-    .counts__content {
-        margin: 4% 0 4% 5%;
-    }
-
     .services__block {
-        padding-left: 10px;
+        margin: 0;
+        width: 100%;
     }
 
     .services__block__hide {
@@ -611,54 +568,58 @@ footer {
         width: 100%;
     }
 
-    .team__avatars {
-        margin: 0 120px;
-    }
-
     .team__text2 {
-        margin: 0 140px;
+        width: 100%;
     }
 
-    .team__social {
-        padding: 30px 0 0 285px;
+    .testimonials {
+        height: 100%;
+        padding-bottom: 30px;
     }
 
     .contact-us__input-block {
-        margin: 0 50px;
-    }
-
-    .contact-us__input_message_margin {
-        margin: 0 50px;
+        width: 100%;
     }
 
     .contact-us__regulations__button {
-        margin: 0 46px;
-    }
-
-    .contact-us__button {
-        margin-left: 230px;
-    }
-
-    .footer-block__logo {
-        padding-right: 150px;
-    }
-
-    .footer-block__social {
-        padding-left: 195px;
+        width: 100%;
     }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 630px) {
+    .header-block__sung_up {
+        width: 150px;
+        margin: 10px auto;
+    }
+
+    .header-block__sung_up button {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
     .block_display_flex {
         display: block;
     }
 
-    .header-block__logo {
-        padding: 0;
+
+    .testimonials-block__right {
+        display: none;
     }
 
-    .header-block__sung_up {
-        display: none;
+    .card {
+        width: 100%;
+    }
+
+    .counts {
+        height: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .header-block__banner__left__header {
+        font-size: 45px;
     }
 
     .header-block__banner {
@@ -668,10 +629,6 @@ footer {
 
     .header-block__banner__left {
         width: 100%;
-    }
-
-    .header-block__banner__right {
-        display: none;
     }
 
     .container {
@@ -694,32 +651,18 @@ footer {
         margin: 10px 0 20px 118px
     }
 
-    .counts {
-        height: 100%;
-        display: block;
-    }
-
     .card {
         width: 100%;
         height: 100px
     }
 
     .counts__content {
-        margin: 0 0 0 135px;
         padding-top: 20px
     }
 
     .services {
         height: 100%;
         padding-bottom: 40px;
-    }
-
-    .services__block {
-        padding-left: 0;
-    }
-
-    .services__block__hide {
-        width: 100%;
     }
 
     .services__text {
@@ -752,16 +695,11 @@ footer {
     }
 
     .team__avatars {
-        margin: 0 40px;
         height: 150px;
     }
 
     .team__text2 {
-        margin: 0;
-    }
-
-    .team__social {
-        padding: 30px 0 0 125px;
+        width: 100%;
     }
 
     .contact-us {
@@ -774,7 +712,7 @@ footer {
     }
 
     .contact-us__input-block {
-        margin: 0;
+        width: 100%;
     }
 
     .contact-us__input-block__left {
@@ -805,23 +743,21 @@ footer {
     .contact-us__regulations__button {
         display: block;
         margin: 0;
+        width: 100%;
+    }
+
+    .contact-us__button {
+        display: block;
+        margin: 30px auto 0;
     }
 
     .contact-us__regulations {
         margin: 0;
     }
 
-    .contact-us__button {
-        margin: 30px 0 0 60%;
-    }
-
     footer {
         height: 100%;
         padding-bottom: 30px;
-    }
-
-    .footer-block__logo {
-        padding: 0 0 30px 0;
     }
 
     .footer-block__text {
@@ -830,7 +766,9 @@ footer {
     }
 
     .footer-block__social {
-        padding: 20px 0 0 30%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
     }
 
     .footer-block__text p {
@@ -845,22 +783,6 @@ footer {
 
     .easy-useful__button {
         margin: 10px 0 20px 95px;
-    }
-
-    .counts__content {
-        margin: 0 0 0 110px;
-    }
-
-    .team__avatars {
-        margin: 0 10px
-    }
-
-    .team__social {
-        padding: 30px 0 0 95px;
-    }
-
-    .contact-us__button {
-        margin: 30px 0 0 55%;
     }
 }
 
@@ -881,24 +803,7 @@ footer {
         margin: 10px 0 20px 75px;
     }
 
-    .counts__content {
-        margin: 0 0 0 85px;
-    }
-
     .team__avatars {
-        margin: 0 20px;
         height: 115px;
-    }
-
-    .team__social {
-        padding: 30px 0 0 70px;
-    }
-
-    .contact-us__button {
-        margin: 30px 0 0 150px;
-    }
-
-    .footer-block__social {
-        padding: 20px 0 0 23%;
     }
 }

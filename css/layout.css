@@ -34,7 +34,8 @@
 }
 
 .text__title {
-    margin: 0 370px;
+    width: 540px;
+    margin: 0 auto;
     padding: 15px 0 40px;
     font-size: 15px;
     line-height: 25px;
@@ -49,29 +50,22 @@
     .content-block {
         padding: 2% 4% 0;
     }
-
-    .text__title {
-        margin: 0 270px;
-    }
 }
 
 @media only screen and (max-width: 768px) {
     .text__title {
-        margin: 0 170px;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 426px) {
+@media only screen and (max-width: 426px) {
     .content-block {
         padding: 10px 20px 0;
     }
 
     .text__title {
-        margin: 0;
+        width: 100%;
     }
-}
-
-@media only screen and (max-width: 321px) {
 }
 
 @media only screen and (max-width: 321px) {
@@ -82,6 +76,4 @@
     .button {
         width: 130px;
     }
-
-
 }
