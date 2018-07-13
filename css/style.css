@@ -20,10 +20,6 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.menu {
-    margin: 0 auto;
-}
-
 .header-block__logo {
 }
 
@@ -315,6 +311,7 @@ header {
 
 .team__avatars {
     display: block;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -415,7 +412,7 @@ header {
 
 .contact-us__checkbox {
     font-size: 20px;
-    margin: 0 10px 0 15px;
+    margin-right: 10px;
     padding-left: 5px;
 }
 
@@ -436,7 +433,7 @@ header {
 
 .contact-us__regulations {
     display: flex;
-    margin-top: 20px;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -458,11 +455,11 @@ footer {
     font-size: 15px;
     line-height: 25px;
     color: rgb(255, 255, 255);
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
-.footer-block__text p:last-child {
-    margin-right: 0;
+.footer-block__text p:first-child {
+    margin-left: 0;
 }
 
 #footer__menu {
@@ -591,20 +588,24 @@ footer {
     }
 }
 
-@media only screen and (max-width: 630px) {
-    .header-block__sing_up {
-        width: 150px;
-        margin: 10px auto;
-    }
-
-    .header-block__sing_up button {
-        width: 150px;
-        height: 50px;
-        font-size: 15px;
-    }
-
+@media only screen and (max-width: 660px) {
     .block_display_flex {
-        display: block;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        order: 3;
+        margin-top: 30px;
+    }
+
+    .header-block__sing_up {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .header-block__banner__left__header {
+        font-size: 45px;
     }
 
     .testimonials-block__right {
@@ -621,11 +622,22 @@ footer {
     }
 }
 
-@media only screen and (max-width: 426px) {
-    .header-block__banner__left__header {
-        font-size: 45px;
+@media only screen and (max-width: 510px) {
+    .footer-block__text {
+        flex-wrap: wrap;
     }
 
+    .footer-block__text p {
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .footer-block__social {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 426px) {
     .header-block__banner {
         display: block;
         padding-top: 70px;
@@ -698,10 +710,6 @@ footer {
         padding-bottom: 30px;
     }
 
-    .team__avatars {
-        height: 150px;
-    }
-
     .team__text2 {
         width: 100%;
     }
@@ -755,10 +763,6 @@ footer {
         margin: 30px auto 0;
     }
 
-    .contact-us__regulations {
-        margin: 0;
-    }
-
     footer {
         height: 100%;
         padding-bottom: 30px;
@@ -805,9 +809,5 @@ footer {
 
     .easy-useful__button {
         margin: 10px 0 20px 75px;
-    }
-
-    .team__avatars {
-        height: 115px;
     }
 }
